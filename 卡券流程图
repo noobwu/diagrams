@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T12:18:31.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4356.0 Safari/537.36 Edg/89.0.744.0" etag="C9tlRY02iPa1dUsNVP60" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T12:19:30.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4356.0 Safari/537.36 Edg/89.0.744.0" etag="OCq0aUHbZLkt7ahljx98" version="14.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,30 +28,30 @@
           <mxGeometry x="84" y="276" width="106" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8pHqULSQDe7c2vqVeTsD-17" value="" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="W0bt_le1wNvd-5BkMtdr-5">
-          <mxGeometry x="190" y="32" width="130" height="100" as="geometry" />
+          <mxGeometry x="190" y="40" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-6" value="分解步骤" style="swimlane;html=1;startSize=20;" parent="W0bt_le1wNvd-5BkMtdr-3" vertex="1">
           <mxGeometry x="650" y="20" width="310" height="750" as="geometry" />
         </mxCell>
         <mxCell id="8pHqULSQDe7c2vqVeTsD-2" value="上传商户Logo" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="W0bt_le1wNvd-5BkMtdr-6">
-          <mxGeometry x="120" y="30" width="80" height="32" as="geometry" />
+          <mxGeometry x="120" y="26" width="80" height="32" as="geometry" />
         </mxCell>
         <mxCell id="8pHqULSQDe7c2vqVeTsD-8" value="创建门店" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="W0bt_le1wNvd-5BkMtdr-6">
-          <mxGeometry x="122" y="110" width="80" height="32" as="geometry" />
+          <mxGeometry x="122" y="119" width="80" height="32" as="geometry" />
         </mxCell>
         <mxCell id="8pHqULSQDe7c2vqVeTsD-14" value="领取卡券" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="W0bt_le1wNvd-5BkMtdr-6">
           <mxGeometry x="140" y="240" width="80" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="8pHqULSQDe7c2vqVeTsD-20" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="W0bt_le1wNvd-5BkMtdr-6" target="8pHqULSQDe7c2vqVeTsD-8">
+        <mxCell id="8pHqULSQDe7c2vqVeTsD-20" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="W0bt_le1wNvd-5BkMtdr-6">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint y="125.5" as="sourcePoint" />
-            <mxPoint x="100" y="125.5" as="targetPoint" />
+            <mxPoint y="138.5" as="sourcePoint" />
+            <mxPoint x="122" y="139" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8pHqULSQDe7c2vqVeTsD-21" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="W0bt_le1wNvd-5BkMtdr-6" target="8pHqULSQDe7c2vqVeTsD-2">
+        <mxCell id="8pHqULSQDe7c2vqVeTsD-21" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="W0bt_le1wNvd-5BkMtdr-6">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint y="40" as="sourcePoint" />
-            <mxPoint x="100" y="40" as="targetPoint" />
+            <mxPoint y="39" as="sourcePoint" />
+            <mxPoint x="120" y="39" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
