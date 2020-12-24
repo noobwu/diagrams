@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T23:34:38.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4346.0 Safari/537.36 Edg/89.0.731.0" etag="_sVSx1JxzIOHFdMyAVz9" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T23:39:36.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4346.0 Safari/537.36 Edg/89.0.731.0" etag="2B8bvhM7Yt_0HfyvZhEK" version="14.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="942" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="W0bt_le1wNvd-5BkMtdr-3" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;flipV=1;" parent="1" vertex="1">
-          <mxGeometry y="22" width="950" height="770" as="geometry" />
+        <mxCell id="W0bt_le1wNvd-5BkMtdr-3" value="卡券流程" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;flipV=1;" parent="1" vertex="1">
+          <mxGeometry y="20" width="950" height="810" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-4" value="支线流程" style="swimlane;html=1;startSize=20;" parent="W0bt_le1wNvd-5BkMtdr-3" vertex="1">
-          <mxGeometry y="20" width="330" height="750" as="geometry">
+          <mxGeometry y="20" width="330" height="790" as="geometry">
             <mxRectangle y="20" width="30" height="620" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-5" value="主干流程" style="swimlane;html=1;startSize=20;" parent="W0bt_le1wNvd-5BkMtdr-3" vertex="1">
-          <mxGeometry x="330" y="20" width="350" height="750" as="geometry" />
+          <mxGeometry x="330" y="20" width="350" height="790" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-8" value="创建卡券" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="W0bt_le1wNvd-5BkMtdr-5" vertex="1">
           <mxGeometry x="84" y="59" width="106" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-12" value="管理卡券" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="W0bt_le1wNvd-5BkMtdr-5" vertex="1">
-          <mxGeometry x="84" y="610" width="106" height="50" as="geometry" />
+          <mxGeometry x="84" y="643" width="106" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-11" value="核销卡券" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="W0bt_le1wNvd-5BkMtdr-5" vertex="1">
           <mxGeometry x="84" y="436" width="106" height="50" as="geometry" />
@@ -37,10 +37,10 @@
           <mxGeometry x="190" y="410" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8pHqULSQDe7c2vqVeTsD-46" value="" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" parent="W0bt_le1wNvd-5BkMtdr-5" vertex="1">
-          <mxGeometry x="190" y="585" width="160" height="100" as="geometry" />
+          <mxGeometry x="190" y="585" width="160" height="165" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-6" value="分解步骤" style="swimlane;html=1;startSize=20;" parent="W0bt_le1wNvd-5BkMtdr-3" vertex="1">
-          <mxGeometry x="680" y="20" width="270" height="750" as="geometry" />
+          <mxGeometry x="680" y="20" width="270" height="790" as="geometry" />
         </mxCell>
         <mxCell id="8pHqULSQDe7c2vqVeTsD-2" value="上传商户Logo" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="W0bt_le1wNvd-5BkMtdr-6" vertex="1">
           <mxGeometry x="120" y="26" width="80" height="32" as="geometry" />
@@ -107,6 +107,15 @@
             <mxPoint y="508" as="sourcePoint" />
             <mxPoint x="115" y="507.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8tTWBorXTSojFSKeNpCR-7" value="修改卡券信息" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="W0bt_le1wNvd-5BkMtdr-6">
+          <mxGeometry x="118" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8tTWBorXTSojFSKeNpCR-8" value="查看卡券详情" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="W0bt_le1wNvd-5BkMtdr-6">
+          <mxGeometry x="119" y="612" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8tTWBorXTSojFSKeNpCR-9" value="查询卡列表" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="W0bt_le1wNvd-5BkMtdr-6">
+          <mxGeometry x="122" y="720" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
