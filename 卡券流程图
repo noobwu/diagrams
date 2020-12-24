@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T12:19:30.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4356.0 Safari/537.36 Edg/89.0.744.0" etag="OCq0aUHbZLkt7ahljx98" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T12:20:15.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4356.0 Safari/537.36 Edg/89.0.744.0" etag="Hpqx1MKnR-YzZWHSv4IF" version="14.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="W0bt_le1wNvd-5BkMtdr-3" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" parent="1" vertex="1">
-          <mxGeometry y="20" width="960" height="770" as="geometry" />
+          <mxGeometry y="20" width="990" height="770" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-4" value="支线流程" style="swimlane;html=1;startSize=20;" parent="W0bt_le1wNvd-5BkMtdr-3" vertex="1">
           <mxGeometry y="20" width="330" height="750" as="geometry">
@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-5" value="主干流程" style="swimlane;html=1;startSize=20;" parent="W0bt_le1wNvd-5BkMtdr-3" vertex="1">
-          <mxGeometry x="330" y="20" width="320" height="750" as="geometry" />
+          <mxGeometry x="330" y="20" width="350" height="750" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-8" value="创建卡券" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="W0bt_le1wNvd-5BkMtdr-5" vertex="1">
           <mxGeometry x="84" y="59" width="106" height="50" as="geometry" />
@@ -25,13 +25,16 @@
           <mxGeometry x="84" y="450" width="106" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-10" value="投放卡券" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" parent="W0bt_le1wNvd-5BkMtdr-5" vertex="1">
-          <mxGeometry x="84" y="276" width="106" height="50" as="geometry" />
+          <mxGeometry x="84" y="265" width="106" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8pHqULSQDe7c2vqVeTsD-17" value="" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="W0bt_le1wNvd-5BkMtdr-5">
-          <mxGeometry x="190" y="40" width="130" height="100" as="geometry" />
+          <mxGeometry x="190" y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8pHqULSQDe7c2vqVeTsD-25" value="" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" vertex="1" parent="W0bt_le1wNvd-5BkMtdr-5">
+          <mxGeometry x="190" y="240" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-6" value="分解步骤" style="swimlane;html=1;startSize=20;" parent="W0bt_le1wNvd-5BkMtdr-3" vertex="1">
-          <mxGeometry x="650" y="20" width="310" height="750" as="geometry" />
+          <mxGeometry x="680" y="20" width="310" height="750" as="geometry" />
         </mxCell>
         <mxCell id="8pHqULSQDe7c2vqVeTsD-2" value="上传商户Logo" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="W0bt_le1wNvd-5BkMtdr-6">
           <mxGeometry x="120" y="26" width="80" height="32" as="geometry" />
