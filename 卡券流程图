@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T23:24:11.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4346.0 Safari/537.36 Edg/89.0.731.0" etag="dcLdvtkv51Glks3u3gaO" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T23:25:39.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4346.0 Safari/537.36 Edg/89.0.731.0" etag="Ofea2S-Yii6XIdzuo8B9" version="14.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="942" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
           <mxGeometry x="190" y="410" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8pHqULSQDe7c2vqVeTsD-46" value="" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" parent="W0bt_le1wNvd-5BkMtdr-5" vertex="1">
-          <mxGeometry x="280" y="585" width="50" height="100" as="geometry" />
+          <mxGeometry x="190" y="585" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="W0bt_le1wNvd-5BkMtdr-6" value="分解步骤" style="swimlane;html=1;startSize=20;" parent="W0bt_le1wNvd-5BkMtdr-3" vertex="1">
           <mxGeometry x="680" y="20" width="270" height="750" as="geometry" />
