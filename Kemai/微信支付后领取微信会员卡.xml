@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T09:06:14.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4426.0 Safari/537.36 Edg/90.0.815.0" version="14.4.4" etag="f5bsN2oGLYUOaoxiqFyp" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T09:08:41.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4426.0 Safari/537.36 Edg/90.0.815.0" version="14.4.4" etag="mQwfCFUHFAEN0cqbVQV-" type="github">
   <diagram id="5aa129d9-4b51-9b99-0a78-bb2f967fc3d4" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -11,19 +11,19 @@
           <mxGeometry x="505" y="100" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-62" value="点餐系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="100" width="100" height="540" as="geometry" />
+          <mxGeometry x="640" y="100" width="120" height="540" as="geometry" />
         </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="y1rh6phJj4241kgfLrmI-62">
-          <mxGeometry x="45" y="308" width="10" height="112" as="geometry" />
+          <mxGeometry x="55" y="308" width="10" height="112" as="geometry" />
         </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-64" value="微平台后台系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="100" width="100" height="540" as="geometry" />
+          <mxGeometry x="280" y="100" width="120" height="540" as="geometry" />
         </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="y1rh6phJj4241kgfLrmI-64">
           <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-68" value="享钱商户后台系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="100" width="110" height="540" as="geometry" />
+          <mxGeometry x="80" y="100" width="120" height="540" as="geometry" />
         </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="y1rh6phJj4241kgfLrmI-68">
           <mxGeometry x="45" y="90" width="10" height="60" as="geometry" />
@@ -52,13 +52,16 @@
             <mxPoint x="520" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y1rh6phJj4241kgfLrmI-82" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;选菜品&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="y1rh6phJj4241kgfLrmI-82" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;选菜品&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="y1rh6phJj4241kgfLrmI-63">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="412" as="sourcePoint" />
             <mxPoint x="679.5" y="411.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="412" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="y1rh6phJj4241kgfLrmI-83" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;下单&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="y1rh6phJj4241kgfLrmI-83" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;下单&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="y1rh6phJj4241kgfLrmI-62">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="458.5" as="sourcePoint" />
             <mxPoint x="679.5" y="458" as="targetPoint" />
@@ -73,12 +76,18 @@
             <mxPoint x="520" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y1rh6phJj4241kgfLrmI-86" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;微信支付完成&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="y1rh6phJj4241kgfLrmI-86" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;微信支付完成&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.1;entryY=0.902;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="y1rh6phJj4241kgfLrmI-63">
           <mxGeometry x="-0.1187" y="10" relative="1" as="geometry">
             <mxPoint x="525" y="508.5" as="sourcePoint" />
             <mxPoint x="684.5" y="508" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="y1rh6phJj4241kgfLrmI-87" value="点餐系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="100" width="120" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="y1rh6phJj4241kgfLrmI-88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="y1rh6phJj4241kgfLrmI-87">
+          <mxGeometry x="45" y="308" width="10" height="112" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
