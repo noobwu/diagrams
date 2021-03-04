@@ -1,14 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T08:42:49.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4426.0 Safari/537.36 Edg/90.0.815.0" version="14.4.4" etag="o6dKTakz_1FJmDqZtmcO" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T08:47:39.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4426.0 Safari/537.36 Edg/90.0.815.0" version="14.4.4" etag="I1BAOHbWIro9It1nlBf1" type="github">
   <diagram id="5aa129d9-4b51-9b99-0a78-bb2f967fc3d4" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="y1rh6phJj4241kgfLrmI-49" value="商家" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="110" width="30" height="60" as="geometry" />
+          <mxGeometry x="-50" y="100" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-55" value="顾客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="110" width="30" height="60" as="geometry" />
+          <mxGeometry x="520" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y1rh6phJj4241kgfLrmI-62" value="微平台前端系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="100" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="y1rh6phJj4241kgfLrmI-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="y1rh6phJj4241kgfLrmI-62">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y1rh6phJj4241kgfLrmI-64" value="微平台后台系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="y1rh6phJj4241kgfLrmI-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="y1rh6phJj4241kgfLrmI-64">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y1rh6phJj4241kgfLrmI-68" value="享钱商户后台系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="110" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="y1rh6phJj4241kgfLrmI-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="y1rh6phJj4241kgfLrmI-68">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
