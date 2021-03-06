@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T08:41:08.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="Rlgbax4cGw1873QLhPf4" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T08:59:22.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="5mn09haeSdcPHitUWL93" version="14.4.4" type="github">
   <diagram id="t3cCbEBY9hsAlw8VPBtw" name="第 1 页">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,20 +13,8 @@
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-11" value="科脉点餐系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="100" width="120" height="1060" as="geometry" />
         </mxCell>
-        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-11">
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-11">
           <mxGeometry x="55" y="308" width="10" height="522" as="geometry" />
-        </mxCell>
-        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-44" value="返回带签名的支付信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" parent="w5EEzix6VfJLTq8Lt9_Y-11">
-          <mxGeometry x="0.6067" y="-19" relative="1" as="geometry">
-            <mxPoint x="65" y="716" as="sourcePoint" />
-            <mxPoint x="65" y="774" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="65" y="716" />
-              <mxPoint x="215" y="716" />
-              <mxPoint x="215" y="774" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-50" value="&amp;nbsp;生成订单" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.205;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.272;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;" edge="1" parent="w5EEzix6VfJLTq8Lt9_Y-11">
           <mxGeometry x="0.6373" y="-11" relative="1" as="geometry">
@@ -99,12 +87,12 @@
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-25" value="" style="endArrow=none;dashed=1;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" edge="1" parent="1" target="w5EEzix6VfJLTq8Lt9_Y-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="1280" as="sourcePoint" />
+            <mxPoint x="520" y="1640" as="sourcePoint" />
             <mxPoint x="520" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-27" value="微信支付系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="100" width="120" height="1180" as="geometry" />
+          <mxGeometry x="1040" y="100" width="120" height="1540" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-27">
           <mxGeometry x="55" y="490" width="10" height="160" as="geometry" />
@@ -123,10 +111,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-34" value="享钱支付系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="827" y="100" width="133" height="1070" as="geometry" />
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-27">
+          <mxGeometry x="55" y="1130" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-34">
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-34" value="享钱支付系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="100" width="133" height="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-34">
           <mxGeometry x="61.5" y="440" width="10" height="340" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-36" value="生成预付单" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=0.9;exitY=0.313;exitPerimeter=0;rounded=1;exitDx=0;exitDy=0;" edge="1" parent="1">
@@ -164,13 +155,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-41" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;返回预付订单标识&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;" edge="1" parent="1">
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-41" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;异步通知支付结果&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="w5EEzix6VfJLTq8Lt9_Y-34">
           <mxGeometry x="0.4667" y="-8" relative="1" as="geometry">
-            <mxPoint x="925" y="718" as="sourcePoint" />
-            <mxPoint x="900" y="718" as="targetPoint" />
+            <mxPoint x="931" y="1430" as="sourcePoint" />
+            <mxPoint x="899" y="1430" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1100" y="718" />
+              <mxPoint x="1106" y="1430" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -185,6 +176,73 @@
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="515" y="1000" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-52" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;确认支付，输入密码&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry x="-0.0581" y="10" relative="1" as="geometry">
+            <mxPoint x="515" y="1240.5" as="sourcePoint" />
+            <mxPoint x="1099.5" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="595" y="1240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1240" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-54" value="验证授权" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=sharp;exitX=0.5;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.6067" y="-19" relative="1" as="geometry">
+            <mxPoint x="1107" y="1280.04" as="sourcePoint" />
+            <mxPoint x="1107" y="1329" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1217" y="1280" />
+              <mxPoint x="1217" y="1329" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-56" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;返回预付订单标识&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="0.4667" y="-8" relative="1" as="geometry">
+            <mxPoint x="935" y="728" as="sourcePoint" />
+            <mxPoint x="910" y="728" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1110" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-60" value="返回带签名的支付信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" parent="1">
+          <mxGeometry x="0.6067" y="-19" relative="1" as="geometry">
+            <mxPoint x="715" y="826" as="sourcePoint" />
+            <mxPoint x="715" y="884" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="715" y="826" />
+              <mxPoint x="865" y="826" />
+              <mxPoint x="865" y="884" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-44" value="保存支付通知" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" parent="1">
+          <mxGeometry x="0.6342" y="-10" relative="1" as="geometry">
+            <mxPoint x="893" y="1471" as="sourcePoint" />
+            <mxPoint x="893" y="1511" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="1471" />
+              <mxPoint x="990" y="1511" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-61" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;返回告知成功接收处理&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;" edge="1" parent="1" target="w5EEzix6VfJLTq8Lt9_Y-27">
+          <mxGeometry x="0.0503" y="10" relative="1" as="geometry">
+            <mxPoint x="900" y="1560" as="sourcePoint" />
+            <mxPoint x="1069.5" y="1540.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="950" y="1560" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
