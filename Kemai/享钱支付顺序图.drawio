@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T09:09:22.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="Tisvzub4pv8GT8jfr4zt" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T09:11:10.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="ZatyqhUqd1QJVDgpdhXy" version="14.4.4" type="github">
   <diagram id="t3cCbEBY9hsAlw8VPBtw" name="第 1 页">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,6 +40,12 @@
               <mxPoint x="210" y="784" />
             </Array>
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-80" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="w5EEzix6VfJLTq8Lt9_Y-11" source="w5EEzix6VfJLTq8Lt9_Y-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="1860" as="sourcePoint" />
+            <mxPoint x="-120" y="1820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-13" value="微平台系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
@@ -287,6 +293,9 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-81" value="展示支付信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1890" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
