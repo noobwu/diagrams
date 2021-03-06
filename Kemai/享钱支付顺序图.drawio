@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T08:34:34.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="xe18jO48E3rdOx8UKL9l" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T08:34:48.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="LEkOncyQsaEdDK4QKXSd" version="14.4.4" type="github">
   <diagram id="t3cCbEBY9hsAlw8VPBtw" name="第 1 页">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,6 +112,18 @@
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-27">
           <mxGeometry x="55" y="900" width="10" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-42" value="验证支付授权权限" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.533;exitY=0.877;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9;entryY=0.753;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="w5EEzix6VfJLTq8Lt9_Y-27" source="w5EEzix6VfJLTq8Lt9_Y-27" target="w5EEzix6VfJLTq8Lt9_Y-48">
+          <mxGeometry x="0.6694" y="-33" relative="1" as="geometry">
+            <mxPoint x="70" y="930" as="sourcePoint" />
+            <mxPoint x="70" y="1013" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="64" y="930" />
+              <mxPoint x="210" y="930" />
+              <mxPoint x="210" y="1013" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-34" value="享钱支付系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="827" y="100" width="133" height="1070" as="geometry" />
         </mxCell>
@@ -161,17 +173,6 @@
             <Array as="points">
               <mxPoint x="1100" y="718" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-42" value="验证支付授权权限" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
-          <mxGeometry x="0.6694" y="-33" relative="1" as="geometry">
-            <mxPoint x="1110" y="1030" as="sourcePoint" />
-            <mxPoint x="1110" y="1113" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1250" y="1030" />
-              <mxPoint x="1250" y="1113" />
-            </Array>
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-46" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;发起及调起微信支付&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="w5EEzix6VfJLTq8Lt9_Y-27">
