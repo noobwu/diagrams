@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T08:25:16.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="eAQUFr3JZ5J830rwK_rv" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T08:29:45.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="ol_cOa3plv6LFB4vjIkY" version="14.4.4" type="github">
   <diagram id="t3cCbEBY9hsAlw8VPBtw" name="第 1 页">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="505" y="100" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-11" value="科脉点餐系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="100" width="120" height="940" as="geometry" />
+          <mxGeometry x="640" y="100" width="120" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-11">
-          <mxGeometry x="55" y="308" width="10" height="502" as="geometry" />
+          <mxGeometry x="55" y="308" width="10" height="522" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-44" value="返回带签名的支付信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="w5EEzix6VfJLTq8Lt9_Y-11">
           <mxGeometry x="0.6067" y="-19" relative="1" as="geometry">
@@ -77,10 +77,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="458.5" as="sourcePoint" />
             <mxPoint x="679.5" y="458" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="470" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="515" y="410" width="10" height="110" as="geometry" />
+          <mxGeometry x="515" y="410" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-25" value="" style="endArrow=none;dashed=1;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" edge="1" parent="1" target="w5EEzix6VfJLTq8Lt9_Y-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -89,13 +92,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-27" value="微信支付系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="100" width="120" height="940" as="geometry" />
+          <mxGeometry x="1040" y="100" width="120" height="1070" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-27">
-          <mxGeometry x="55" y="490" width="10" height="200" as="geometry" />
+          <mxGeometry x="55" y="490" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-34" value="享钱支付系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="827" y="100" width="133" height="940" as="geometry" />
+          <mxGeometry x="827" y="100" width="133" height="1070" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-34">
           <mxGeometry x="61.5" y="440" width="10" height="340" as="geometry" />
@@ -155,6 +158,18 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-46" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;发起及调起微信支付&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="w5EEzix6VfJLTq8Lt9_Y-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="1010.5" as="sourcePoint" />
+            <mxPoint x="694.5" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="595" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5EEzix6VfJLTq8Lt9_Y-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1000" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
