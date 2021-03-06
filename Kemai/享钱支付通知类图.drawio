@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T09:52:46.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="va7K8aDvGLxERE5Vn0uH" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T09:59:57.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="SajUcS2HeWnFYjgBEP66" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry y="75" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="4BXCVqnNxp8ddijggPDn-8" value="&amp;lt;&amp;lt;处理享钱异步通知&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;XQCallbackBI&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="80" width="160" height="120" as="geometry" />
+          <mxGeometry x="390" y="80" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4BXCVqnNxp8ddijggPDn-9" value="方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4BXCVqnNxp8ddijggPDn-8">
           <mxGeometry y="55" width="160" height="20" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry y="75" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="4BXCVqnNxp8ddijggPDn-11" value="&amp;lt;&amp;lt;订单支付成功后MQ消费者业务&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;OrderPayMqReceiver&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="80" width="200" height="120" as="geometry" />
+          <mxGeometry x="700" y="70" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4BXCVqnNxp8ddijggPDn-12" value="方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4BXCVqnNxp8ddijggPDn-11">
           <mxGeometry y="55" width="200" height="20" as="geometry" />
@@ -32,13 +32,45 @@
           <mxGeometry y="75" width="200" height="45" as="geometry" />
         </mxCell>
         <mxCell id="4BXCVqnNxp8ddijggPDn-14" value="&amp;lt;&amp;lt;支付相关的业务&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;PayBI&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="880" y="80" width="200" height="120" as="geometry" />
+          <mxGeometry x="1100" y="70" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4BXCVqnNxp8ddijggPDn-15" value="方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4BXCVqnNxp8ddijggPDn-14">
           <mxGeometry y="55" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4BXCVqnNxp8ddijggPDn-16" value="+UpdateOrderPayToBranch()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4BXCVqnNxp8ddijggPDn-14">
           <mxGeometry y="75" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4BXCVqnNxp8ddijggPDn-17" value="" style="endArrow=classic;html=1;exitX=1.006;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.025;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4BXCVqnNxp8ddijggPDn-6" target="4BXCVqnNxp8ddijggPDn-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="170" as="sourcePoint" />
+            <mxPoint x="322" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4BXCVqnNxp8ddijggPDn-20" value="更新支付状态及MQ入列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4BXCVqnNxp8ddijggPDn-17">
+          <mxGeometry x="-0.2229" y="1" relative="1" as="geometry">
+            <mxPoint x="32.03" y="-8.84" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4BXCVqnNxp8ddijggPDn-18" value="" style="endArrow=classic;html=1;exitX=1;exitY=-0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4BXCVqnNxp8ddijggPDn-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="129.5" as="sourcePoint" />
+            <mxPoint x="700" y="131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4BXCVqnNxp8ddijggPDn-19" value="" style="endArrow=classic;html=1;exitX=1.02;exitY=-0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.02;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4BXCVqnNxp8ddijggPDn-12" target="4BXCVqnNxp8ddijggPDn-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1027" y="120" as="sourcePoint" />
+            <mxPoint x="1148.04" y="121" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1087" y="121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4BXCVqnNxp8ddijggPDn-21" value="MQ出列处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="110" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4BXCVqnNxp8ddijggPDn-22" value="处理支付后订单业务逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="930" y="90" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
