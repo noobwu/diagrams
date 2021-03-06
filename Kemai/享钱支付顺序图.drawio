@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-06T08:39:43.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="vD_6i7XpA2ghvDMQIIkO" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-06T08:41:08.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4428.0 Safari/537.36 Edg/90.0.817.0" etag="Rlgbax4cGw1873QLhPf4" version="14.4.4" type="github">
   <diagram id="t3cCbEBY9hsAlw8VPBtw" name="第 1 页">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,18 +99,18 @@
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-25" value="" style="endArrow=none;dashed=1;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" edge="1" parent="1" target="w5EEzix6VfJLTq8Lt9_Y-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="1040" as="sourcePoint" />
+            <mxPoint x="520" y="1280" as="sourcePoint" />
             <mxPoint x="520" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-27" value="微信支付系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="100" width="120" height="1070" as="geometry" />
+          <mxGeometry x="1040" y="100" width="120" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-27">
           <mxGeometry x="55" y="490" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="w5EEzix6VfJLTq8Lt9_Y-27">
-          <mxGeometry x="55" y="900" width="10" height="150" as="geometry" />
+          <mxGeometry x="55" y="900" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-42" value="验证支付授权权限" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="w5EEzix6VfJLTq8Lt9_Y-27">
           <mxGeometry x="-0.4717" y="16" relative="1" as="geometry">
@@ -184,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w5EEzix6VfJLTq8Lt9_Y-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="515" y="1000" width="10" height="140" as="geometry" />
+          <mxGeometry x="515" y="1000" width="10" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
