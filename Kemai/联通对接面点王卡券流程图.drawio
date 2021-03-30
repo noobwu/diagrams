@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T04:03:36.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4451.0 Safari/537.36 Edg/91.0.841.0" etag="W_A4gmS5ukbnUDl9VVjL" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-30T05:42:33.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4451.0 Safari/537.36 Edg/91.0.841.0" etag="TWLMSBLiuyMu_v0bdfSI" version="14.4.4" type="github">
   <diagram id="5aa129d9-4b51-9b99-0a78-bb2f967fc3d4" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -11,7 +11,10 @@
           <mxGeometry x="590" y="80" width="120" height="820" as="geometry" />
         </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="y1rh6phJj4241kgfLrmI-62" vertex="1">
-          <mxGeometry x="55" y="280" width="10" height="70" as="geometry" />
+          <mxGeometry x="55" y="280" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QpcFcwuWjfST1NYp_s-o-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="y1rh6phJj4241kgfLrmI-62">
+          <mxGeometry x="55" y="390" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-64" value="&lt;font style=&quot;font-size: 14px&quot;&gt;科脉微平台系统&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="120" height="820" as="geometry" />
@@ -19,20 +22,34 @@
         <mxCell id="y1rh6phJj4241kgfLrmI-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="y1rh6phJj4241kgfLrmI-64" vertex="1">
           <mxGeometry x="54" y="120" width="10" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="QpcFcwuWjfST1NYp_s-o-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#006EAF;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#ffffff;align=center;fillColor=#006EAF;" vertex="1" parent="y1rh6phJj4241kgfLrmI-64">
+          <mxGeometry x="54" y="460" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QpcFcwuWjfST1NYp_s-o-15" value="&lt;span style=&quot;font-size: 14px&quot;&gt;给该手机号会员发送相应卡券&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#ffffff;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1.066;exitY=0.713;exitPerimeter=0;" edge="1" parent="y1rh6phJj4241kgfLrmI-64">
+          <mxGeometry x="0.162" y="40" relative="1" as="geometry">
+            <mxPoint x="70.65999999999985" y="516.0100000000002" as="sourcePoint" />
+            <mxPoint x="65" y="555.0999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="516.1" />
+              <mxPoint x="120" y="555.1" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-76" value="" style="endArrow=none;dashed=1;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-38.5" y="900" as="sourcePoint" />
             <mxPoint x="-38.5" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y1rh6phJj4241kgfLrmI-77" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;导入科脉微平台系统券码&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
+        <mxCell id="y1rh6phJj4241kgfLrmI-77" value="&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 14px;&quot;&gt;导入科脉微平台系统券码&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry x="-0.1041" y="10" relative="1" as="geometry">
             <mxPoint x="-40" y="363" as="sourcePoint" />
             <mxPoint x="649.5" y="363" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QpcFcwuWjfST1NYp_s-o-3" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;导出券码&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="QpcFcwuWjfST1NYp_s-o-3" value="&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 14px;&quot;&gt;导出券码&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry x="-0.1041" y="10" relative="1" as="geometry">
             <mxPoint x="-40" y="280" as="sourcePoint" />
             <mxPoint x="170" y="281" as="targetPoint" />
@@ -56,6 +73,23 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="424.5" y="900" as="sourcePoint" />
             <mxPoint x="424.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpcFcwuWjfST1NYp_s-o-12" value="&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;用户购买卡券商品&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="QpcFcwuWjfST1NYp_s-o-11">
+          <mxGeometry x="-0.1041" y="10" relative="1" as="geometry">
+            <mxPoint x="430" y="470" as="sourcePoint" />
+            <mxPoint x="640" y="471" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpcFcwuWjfST1NYp_s-o-13" value="&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-family: 微软雅黑, sans-serif;&quot;&gt;调用科脉微平台兑换消费卡接口&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry x="0.4717" y="-20" relative="1" as="geometry">
+            <mxPoint x="475" y="543" as="sourcePoint" />
+            <mxPoint x="179.5" y="543" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="650" y="543" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
