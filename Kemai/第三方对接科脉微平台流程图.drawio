@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T08:30:25.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4466.0 Safari/537.36 Edg/91.0.859.0" etag="BuH3i-DFh2Hc9vF-m5pB" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-19T08:31:37.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4466.0 Safari/537.36 Edg/91.0.859.0" etag="4B-FNjXt-n68i3xqaubq" version="14.5.10" type="github">
   <diagram id="5aa129d9-4b51-9b99-0a78-bb2f967fc3d4" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
             <mxPoint x="424.5" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QpcFcwuWjfST1NYp_s-o-12" value="&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;用户点餐下单&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
+        <mxCell id="QpcFcwuWjfST1NYp_s-o-12" value="&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;用户点餐下单且支付&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry x="-0.1041" y="10" relative="1" as="geometry">
             <mxPoint x="430" y="610" as="sourcePoint" />
             <mxPoint x="645" y="610" as="targetPoint" />
@@ -139,7 +139,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="A0QS7YvNojqld_3xA-VV-1" value="&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;调用下单接口&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="0CgtTunisocNIU1OMhdK-2">
+        <mxCell id="A0QS7YvNojqld_3xA-VV-1" value="&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;调用下单且支付接口&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="0CgtTunisocNIU1OMhdK-2">
           <mxGeometry x="-0.1041" y="10" relative="1" as="geometry">
             <mxPoint x="660" y="630" as="sourcePoint" />
             <mxPoint x="865" y="630" as="targetPoint" />
