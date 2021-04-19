@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T08:34:50.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4466.0 Safari/537.36 Edg/91.0.859.0" etag="zlw1oCUwk3yLzr6HdGRV" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-19T08:35:50.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4466.0 Safari/537.36 Edg/91.0.859.0" etag="oM6DVcArIhEbmu741VvV" version="14.5.10" type="github">
   <diagram id="5aa129d9-4b51-9b99-0a78-bb2f967fc3d4" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="55" y="160" width="10" height="290" as="geometry" />
         </mxCell>
         <mxCell id="QpcFcwuWjfST1NYp_s-o-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="y1rh6phJj4241kgfLrmI-62" vertex="1">
-          <mxGeometry x="55" y="520" width="10" height="360" as="geometry" />
+          <mxGeometry x="55" y="520" width="10" height="310" as="geometry" />
         </mxCell>
         <mxCell id="y1rh6phJj4241kgfLrmI-64" value="&lt;font style=&quot;font-size: 14px&quot;&gt;科脉微平台系统&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="120" height="880" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="54" y="120" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QpcFcwuWjfST1NYp_s-o-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#006EAF;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#ffffff;align=center;fillColor=#006EAF;" parent="y1rh6phJj4241kgfLrmI-64" vertex="1">
-          <mxGeometry x="55" y="590" width="10" height="290" as="geometry" />
+          <mxGeometry x="55" y="590" width="10" height="130" as="geometry" />
         </mxCell>
         <mxCell id="0CgtTunisocNIU1OMhdK-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="y1rh6phJj4241kgfLrmI-64" vertex="1">
           <mxGeometry x="55" y="250" width="10" height="80" as="geometry" />
@@ -91,7 +91,7 @@
           <mxGeometry x="55" y="190" width="10" height="210" as="geometry" />
         </mxCell>
         <mxCell id="0CgtTunisocNIU1OMhdK-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#006EAF;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#ffffff;align=center;fillColor=#006EAF;" parent="0CgtTunisocNIU1OMhdK-2" vertex="1">
-          <mxGeometry x="54" y="540" width="10" height="340" as="geometry" />
+          <mxGeometry x="54" y="540" width="10" height="240" as="geometry" />
         </mxCell>
         <mxCell id="0CgtTunisocNIU1OMhdK-6" value="&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;调用菜品接口&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry x="-0.1041" y="10" relative="1" as="geometry">
@@ -188,13 +188,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A0QS7YvNojqld_3xA-VV-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="420" y="600" width="10" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="A0QS7YvNojqld_3xA-VV-8" value="" style="endArrow=none;dashed=1;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="425" y="920" as="sourcePoint" />
-            <mxPoint x="425" y="1000" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="420" y="600" width="10" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
