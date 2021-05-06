@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T09:33:57.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4487.0 Safari/537.36 Edg/92.0.879.0" etag="jW70E-nx27hmUOLneO7c" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-06T09:37:49.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4487.0 Safari/537.36 Edg/92.0.879.0" etag="yZXAql-XdlsQdjXfPWX2" version="14.6.3" type="github">
   <diagram id="5aa129d9-4b51-9b99-0a78-bb2f967fc3d4" name="Page-1">
     <mxGraphModel dx="1422" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,10 @@
           <mxGeometry y="-690" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0_Bh9sVGW5Xc2mKzePYn-6" value="商家" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry width="20" height="670" as="geometry" />
+          <mxGeometry x="30" width="20" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="0_Bh9sVGW5Xc2mKzePYn-7" value="&lt;span style=&quot;font-size: 14px&quot;&gt;好餐谋V11总部系统&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" width="160" height="1040" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
