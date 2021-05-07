@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T06:49:49.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4487.0 Safari/537.36 Edg/92.0.880.0" etag="IdAVtJfz8C2oG5nOjy5T" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T06:55:05.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4487.0 Safari/537.36 Edg/92.0.880.0" etag="T-QGbf3ql9EPaRvuPOBv" version="14.6.10" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -77,22 +77,27 @@
           <mxGeometry x="510" y="40" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-30" value="WCF服务端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-8">
-          <mxGeometry x="610" y="40" width="130" height="120" as="geometry" />
+          <mxGeometry x="1290" y="250" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-32" value="SignalR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-8">
-          <mxGeometry x="770" y="40" width="120" height="120" as="geometry" />
+          <mxGeometry x="1470" y="240" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-34" value="后台管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-8">
-          <mxGeometry x="930" y="40" width="120" height="120" as="geometry" />
+          <mxGeometry x="1010" y="320" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-35" value="前端" style="swimlane;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-8">
-          <mxGeometry x="1130" y="40" width="250" height="120" as="geometry" />
+          <mxGeometry x="730" y="40" width="310" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-37" value="H5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-35">
-          <mxGeometry x="10" y="41" width="80" height="40" as="geometry" />
+          <mxGeometry x="40" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yn--MAGcJ2VL24peUoGt-45" value="" style="edgeStyle=none;rounded=0;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="yn--MAGcJ2VL24peUoGt-35" source="yn--MAGcJ2VL24peUoGt-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="61" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-38" value="微信小程序" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;aspect=fixed;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-35">
-          <mxGeometry x="130" y="41" width="80" height="40" as="geometry" />
+          <mxGeometry x="200" y="41" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
