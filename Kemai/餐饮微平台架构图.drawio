@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T06:31:51.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4487.0 Safari/537.36 Edg/92.0.880.0" etag="uUHH6yHsBmsV9MhAak1a" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T06:33:40.664Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4487.0 Safari/537.36 Edg/92.0.880.0" etag="sWLnkWIwQzV5SohRKHAO" version="14.6.10" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,10 +41,10 @@
           <mxGeometry x="169" y="55" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-8" value="餐饮微平台系统" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="360" width="1080" height="240" as="geometry" />
+          <mxGeometry x="-40" y="280" width="1080" height="200" as="geometry" />
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-19" value="API" style="swimlane;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-8">
-          <mxGeometry x="4" y="80" width="436" height="120" as="geometry" />
+          <mxGeometry y="40" width="436" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-20" value="基础API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-19">
           <mxGeometry x="6" y="40" width="80" height="40" as="geometry" />
@@ -54,6 +54,15 @@
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-22" value="同步API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-19">
           <mxGeometry x="236" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yn--MAGcJ2VL24peUoGt-23" value="营销API" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-19">
+          <mxGeometry x="346" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yn--MAGcJ2VL24peUoGt-24" value="TCP服务端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-8">
+          <mxGeometry x="480" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yn--MAGcJ2VL24peUoGt-25" value="Job服务端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-8">
+          <mxGeometry x="640" y="80" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
