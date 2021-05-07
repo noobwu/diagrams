@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T07:30:33.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4487.0 Safari/537.36 Edg/92.0.880.0" etag="O96X0H6pxdYmzsFB-14j" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T07:34:52.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4487.0 Safari/537.36 Edg/92.0.880.0" etag="0qIHe0LDivMYODCwHBe7" version="14.6.10" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
           <mxGeometry x="10" y="40" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-30" value="WCF服务端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-8">
-          <mxGeometry x="960" y="80" width="90" height="40" as="geometry" />
+          <mxGeometry x="960" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-34" value="后台管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-8">
           <mxGeometry x="1120" y="80" width="90" height="40" as="geometry" />
@@ -156,6 +156,20 @@
         </mxCell>
         <mxCell id="yn--MAGcJ2VL24peUoGt-57" value="微信消息处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="yn--MAGcJ2VL24peUoGt-8">
           <mxGeometry x="1269" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yn--MAGcJ2VL24peUoGt-67" value="" style="jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;sketch=0;shadow=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="996" y="360" as="targetPoint" />
+            <mxPoint x="1081" y="119" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yn--MAGcJ2VL24peUoGt-68" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;jumpStyle=sharp;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;shadow=0;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.957;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.433;exitY=1.039;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yn--MAGcJ2VL24peUoGt-14" target="yn--MAGcJ2VL24peUoGt-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1207" y="199.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1170" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
