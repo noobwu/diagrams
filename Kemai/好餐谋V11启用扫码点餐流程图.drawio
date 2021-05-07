@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T10:24:32.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4487.0 Safari/537.36 Edg/92.0.880.0" etag="Rn4nUDv25NXfYF_KnA8s" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T10:33:27.602Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4487.0 Safari/537.36 Edg/92.0.880.0" etag="7YYioYIMFElmm7zjUVZp" version="14.6.10" type="github">
   <diagram id="5aa129d9-4b51-9b99-0a78-bb2f967fc3d4" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,7 +30,10 @@
           <mxGeometry x="75" y="260" width="10" height="350" as="geometry" />
         </mxCell>
         <mxCell id="cTNivj2qa2bxNb8J5VaI-4" value="&lt;span style=&quot;font-size: 14px&quot;&gt;好餐谋V11门店ERP&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="680" width="160" height="840" as="geometry" />
+          <mxGeometry x="640" width="160" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="cTNivj2qa2bxNb8J5VaI-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="cTNivj2qa2bxNb8J5VaI-4">
+          <mxGeometry x="75" y="680" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cTNivj2qa2bxNb8J5VaI-5" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;设置机构信息&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
@@ -143,20 +146,17 @@
         <mxCell id="cTNivj2qa2bxNb8J5VaI-23" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;同步门店，菜品相关信息&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry x="-0.2" relative="1" as="geometry">
             <mxPoint x="40" y="690" as="sourcePoint" />
-            <mxPoint x="748" y="690" as="targetPoint" />
+            <mxPoint x="715" y="690" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="61" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cTNivj2qa2bxNb8J5VaI-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="750" y="680" width="10" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="cTNivj2qa2bxNb8J5VaI-25" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;调用扫码点餐&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry x="-0.2" relative="1" as="geometry">
             <mxPoint x="42" y="750" as="sourcePoint" />
-            <mxPoint x="750" y="750" as="targetPoint" />
+            <mxPoint x="715" y="750" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="63" y="750" />
