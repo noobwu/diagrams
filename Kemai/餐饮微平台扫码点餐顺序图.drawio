@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T08:02:56.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4492.0 Safari/537.36 Edg/92.0.881.0" etag="e6qDesDzr8b0m_wWZSO6" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T08:03:13.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4492.0 Safari/537.36 Edg/92.0.881.0" etag="8MlLAIRVlDIpj90Kpyis" version="14.6.10" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -258,6 +258,9 @@
         </mxCell>
         <mxCell id="KIGTdYXQjyGPoFLAYNH6-65" value="&lt;font color=&quot;#333333&quot; face=&quot;verdana&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;把中间订单转换正式订单&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1500" y="970" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGTdYXQjyGPoFLAYNH6-71" value="&lt;font color=&quot;#333333&quot; face=&quot;verdana&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;更新订单状态&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="980" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
