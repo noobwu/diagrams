@@ -1,17 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T08:01:23.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4558.0 Safari/537.36 Edg/93.0.946.0" etag="5Yn6aVBCUs7e8aW_eWUU" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-14T08:11:22.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4558.0 Safari/537.36 Edg/93.0.946.0" etag="WuL7Fqgf_b4Rl0eH00wQ" version="14.8.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="-dxCHjoScCcCWRGmQ6CL-0" value="&amp;lt;&amp;lt;同步会员类别Job&amp;gt;&amp;gt;&lt;br&gt;&lt;span style=&quot;font-style: italic&quot;&gt;VipTypeDsyncJob&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="80" width="140" height="80" as="geometry" />
+        <mxCell id="-dxCHjoScCcCWRGmQ6CL-0" value="&amp;lt;&amp;lt;同步会员类别Job&amp;gt;&amp;gt;&lt;br&gt;&lt;span style=&quot;font-style: italic&quot;&gt;&lt;b&gt;VipTypeDsyncJob&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="80" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-dxCHjoScCcCWRGmQ6CL-6" value="方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-dxCHjoScCcCWRGmQ6CL-0">
           <mxGeometry y="40" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-dxCHjoScCcCWRGmQ6CL-7" value="Execute" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-dxCHjoScCcCWRGmQ6CL-0">
           <mxGeometry y="60" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-dxCHjoScCcCWRGmQ6CL-8" value="&amp;lt;&amp;lt;同步相关逻辑&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;CratingDsync&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-dxCHjoScCcCWRGmQ6CL-14" value="方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-dxCHjoScCcCWRGmQ6CL-8">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-dxCHjoScCcCWRGmQ6CL-15" value="DsyncVipType" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-dxCHjoScCcCWRGmQ6CL-8">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-dxCHjoScCcCWRGmQ6CL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="119.5" as="sourcePoint" />
+            <mxPoint x="210" y="119.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-dxCHjoScCcCWRGmQ6CL-21" value="&amp;lt;&amp;lt;同步相关数据操作&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;CratingDsyncDI&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="80" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-dxCHjoScCcCWRGmQ6CL-27" value="方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-dxCHjoScCcCWRGmQ6CL-21">
+          <mxGeometry y="40" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-dxCHjoScCcCWRGmQ6CL-28" value="SyncVipType" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-dxCHjoScCcCWRGmQ6CL-21">
+          <mxGeometry y="60" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-dxCHjoScCcCWRGmQ6CL-29" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.021;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="120" as="sourcePoint" />
+            <mxPoint x="437.05999999999995" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="120" />
+              <mxPoint x="390" y="117" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
