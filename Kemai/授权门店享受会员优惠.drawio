@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T08:26:45.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4569.0 Safari/537.36 Edg/93.0.951.0" etag="Vi_v601FoZfnxcPIq9xZ" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T08:34:36.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4569.0 Safari/537.36 Edg/93.0.951.0" etag="6zCaYE6fS-V6TdwFgZIY" version="14.8.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="lAEpqJi91AwWo8hl3ahP-0" value="菜品相关接口" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="lAEpqJi91AwWo8hl3ahP-0" value="获取菜品列表接口" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="40" width="500" height="240" as="geometry" />
         </mxCell>
         <mxCell id="lAEpqJi91AwWo8hl3ahP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lAEpqJi91AwWo8hl3ahP-1" target="lAEpqJi91AwWo8hl3ahP-18">
@@ -44,6 +44,21 @@
         </mxCell>
         <mxCell id="lAEpqJi91AwWo8hl3ahP-18" value="" style="line;strokeWidth=1;html=1;fillColor=none;" vertex="1" parent="lAEpqJi91AwWo8hl3ahP-20">
           <mxGeometry y="55" width="140" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="lAEpqJi91AwWo8hl3ahP-25" value="菜品相关接口" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="320" width="500" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lAEpqJi91AwWo8hl3ahP-26" value="菜品相关接口" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="600" width="500" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lAEpqJi91AwWo8hl3ahP-27" value="&amp;lt;&amp;lt;菜品相关接口&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;FoodInfoController&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="380" width="140" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="lAEpqJi91AwWo8hl3ahP-28" value="方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lAEpqJi91AwWo8hl3ahP-27">
+          <mxGeometry y="55" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lAEpqJi91AwWo8hl3ahP-29" value="Get" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lAEpqJi91AwWo8hl3ahP-27">
+          <mxGeometry y="75" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
