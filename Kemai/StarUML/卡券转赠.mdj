@@ -1,0 +1,1158 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "卡券相关",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAF60V5Vui2kLXs=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "卡券转赠",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAF60V5Vui2lyGk=",
+					"_parent": {
+						"$ref": "AAAAAAF60V5Vui2kLXs="
+					},
+					"name": "卡券转赠类图",
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF60V6IgC2r5lU=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"model": {
+								"$ref": "AAAAAAF60V6Ify2p6UE="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF60V6IgC2smx0=",
+									"_parent": {
+										"$ref": "AAAAAAF60V6IgC2r5lU="
+									},
+									"model": {
+										"$ref": "AAAAAAF60V6Ify2p6UE="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60V6IgC2txa8=",
+											"_parent": {
+												"$ref": "AAAAAAF60V6IgC2smx0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": -32,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60V6IgC2uBAQ=",
+											"_parent": {
+												"$ref": "AAAAAAF60V6IgC2smx0="
+											},
+											"font": "Arial;13;1",
+											"left": 53,
+											"top": 191,
+											"width": 343,
+											"height": 13,
+											"text": "TicketInfoController"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60V6IgC2vb3A=",
+											"_parent": {
+												"$ref": "AAAAAAF60V6IgC2smx0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": -32,
+											"width": 94.44677734375,
+											"height": 13,
+											"text": "(from 卡券转赠)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60V6IgC2wUUA=",
+											"_parent": {
+												"$ref": "AAAAAAF60V6IgC2smx0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": -32,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 184,
+									"width": 353,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF60V6IgC2txa8="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF60V6IgC2uBAQ="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF60V6IgC2vb3A="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF60V6IgC2wUUA="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF60V6IgC2xD8M=",
+									"_parent": {
+										"$ref": "AAAAAAF60V6IgC2r5lU="
+									},
+									"model": {
+										"$ref": "AAAAAAF60V6Ify2p6UE="
+									},
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 209,
+									"width": 353,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF60V6IgS2ywZw=",
+									"_parent": {
+										"$ref": "AAAAAAF60V6IgC2r5lU="
+									},
+									"model": {
+										"$ref": "AAAAAAF60V6Ify2p6UE="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF60WAPDi3dMn0=",
+											"_parent": {
+												"$ref": "AAAAAAF60V6IgS2ywZw="
+											},
+											"model": {
+												"$ref": "AAAAAAF60WAPBS3asOo="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 224,
+											"width": 343,
+											"height": 13,
+											"text": "+SetGifting([FromBody]TicketInput_SettingGifting input)",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 219,
+									"width": 353,
+									"height": 23
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF60V6IgS2zzMw=",
+									"_parent": {
+										"$ref": "AAAAAAF60V6IgC2r5lU="
+									},
+									"model": {
+										"$ref": "AAAAAAF60V6Ify2p6UE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": -16,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF60V6IgS20eGI=",
+									"_parent": {
+										"$ref": "AAAAAAF60V6IgC2r5lU="
+									},
+									"model": {
+										"$ref": "AAAAAAF60V6Ify2p6UE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": -16,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 48,
+							"top": 184,
+							"width": 353,
+							"height": 73,
+							"nameCompartment": {
+								"$ref": "AAAAAAF60V6IgC2smx0="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF60V6IgC2xD8M="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF60V6IgS2ywZw="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF60V6IgS2zzMw="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF60V6IgS20eGI="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF60V+iNi3TRbk=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 104,
+							"width": 100,
+							"height": 25,
+							"text": "卡券相关接口"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF60V+iPi3WU9s=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF60V+iNi3TRbk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF60V6IgC2r5lU="
+							},
+							"lineStyle": 1,
+							"points": "224:183;225:129"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF60WQj8C36OyU=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"font": "Arial;13;0",
+							"left": 464,
+							"top": 208,
+							"width": 105,
+							"height": 33,
+							"text": "卡券转赠"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF60WdIlC4JTNs=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF60V+iNi3TRbk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF60V6IgC2r5lU="
+							},
+							"lineStyle": 1,
+							"points": "224:183;225:129"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF60WdfRy4OC5c=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF60V+iNi3TRbk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF60V6IgC2r5lU="
+							},
+							"lineStyle": 1,
+							"points": "224:183;225:129"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF60W6/Jy6AMyQ=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF60WQj8C36OyU="
+							},
+							"tail": {
+								"$ref": "AAAAAAF60V6IgC2r5lU="
+							},
+							"lineStyle": 1,
+							"points": "401:222;463:223"
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF60W+Fzy6O/9c=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"model": {
+								"$ref": "AAAAAAF60W+Fzi6MwqU="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF60W+Fzy6P10g=",
+									"_parent": {
+										"$ref": "AAAAAAF60W+Fzy6O/9c="
+									},
+									"model": {
+										"$ref": "AAAAAAF60W+Fzi6MwqU="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60W+Fzy6QZTA=",
+											"_parent": {
+												"$ref": "AAAAAAF60W+Fzy6P10g="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": 320,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60W+Fzy6RAAE=",
+											"_parent": {
+												"$ref": "AAAAAAF60W+Fzy6P10g="
+											},
+											"font": "Arial;13;1",
+											"left": 53,
+											"top": 367,
+											"width": 343,
+											"height": 13,
+											"text": "TicketInfoBI"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60W+Fzy6SIf4=",
+											"_parent": {
+												"$ref": "AAAAAAF60W+Fzy6P10g="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": 320,
+											"width": 94.44677734375,
+											"height": 13,
+											"text": "(from 卡券转赠)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60W+Fzy6TTh8=",
+											"_parent": {
+												"$ref": "AAAAAAF60W+Fzy6P10g="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": 320,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 360,
+									"width": 353,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF60W+Fzy6QZTA="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF60W+Fzy6RAAE="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF60W+Fzy6SIf4="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF60W+Fzy6TTh8="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF60W+Fzy6UAa8=",
+									"_parent": {
+										"$ref": "AAAAAAF60W+Fzy6O/9c="
+									},
+									"model": {
+										"$ref": "AAAAAAF60W+Fzi6MwqU="
+									},
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 385,
+									"width": 353,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF60W+Fzy6V+Uc=",
+									"_parent": {
+										"$ref": "AAAAAAF60W+Fzy6O/9c="
+									},
+									"model": {
+										"$ref": "AAAAAAF60W+Fzi6MwqU="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF60XDiJi7B/U8=",
+											"_parent": {
+												"$ref": "AAAAAAF60W+Fzy6V+Uc="
+											},
+											"model": {
+												"$ref": "AAAAAAF60XDiHy6+m+4="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 400,
+											"width": 343,
+											"height": 13,
+											"text": "+SetGifting(TicketInput_SettingGifting input)",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 395,
+									"width": 353,
+									"height": 23
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF60W+Fzy6W2bA=",
+									"_parent": {
+										"$ref": "AAAAAAF60W+Fzy6O/9c="
+									},
+									"model": {
+										"$ref": "AAAAAAF60W+Fzi6MwqU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": 136,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF60W+Fzy6XybU=",
+									"_parent": {
+										"$ref": "AAAAAAF60W+Fzy6O/9c="
+									},
+									"model": {
+										"$ref": "AAAAAAF60W+Fzi6MwqU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": 136,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 48,
+							"top": 360,
+							"width": 353,
+							"height": 73,
+							"nameCompartment": {
+								"$ref": "AAAAAAF60W+Fzy6P10g="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF60W+Fzy6UAa8="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF60W+Fzy6V+Uc="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF60W+Fzy6W2bA="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF60W+Fzy6XybU="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF60W/zUS63YSM=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"font": "Arial;13;0",
+							"left": 288,
+							"top": 280,
+							"width": 124,
+							"height": 50,
+							"text": "卡券业务逻辑处理"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF60W/zWy66ao4=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF60W/zUS63YSM="
+							},
+							"tail": {
+								"$ref": "AAAAAAF60W+Fzy6O/9c="
+							},
+							"lineStyle": 1,
+							"points": "274:359;314:330"
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "AAAAAAF60XXCVDDKXoc=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"model": {
+								"$ref": "AAAAAAF60XXCVDDIfG0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF60XXCVDDLITs=",
+									"_parent": {
+										"$ref": "AAAAAAF60XXCVDDKXoc="
+									},
+									"model": {
+										"$ref": "AAAAAAF60XXCVDDIfG0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 238,
+									"top": 301,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF60XXCVDDKXoc="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF60XXCVDDMuLk=",
+									"_parent": {
+										"$ref": "AAAAAAF60XXCVDDKXoc="
+									},
+									"model": {
+										"$ref": "AAAAAAF60XXCVDDIfG0="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 253,
+									"top": 301,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF60XXCVDDKXoc="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF60XXCVDDNJCI=",
+									"_parent": {
+										"$ref": "AAAAAAF60XXCVDDKXoc="
+									},
+									"model": {
+										"$ref": "AAAAAAF60XXCVDDIfG0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 209,
+									"top": 302,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF60XXCVDDKXoc="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF60W+Fzy6O/9c="
+							},
+							"tail": {
+								"$ref": "AAAAAAF60V6IgC2r5lU="
+							},
+							"lineStyle": 1,
+							"points": "224:257;224:359",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAF60XXCVDDLITs="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAF60XXCVDDMuLk="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAF60XXCVDDNJCI="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF60YRAfjWd/fA=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"model": {
+								"$ref": "AAAAAAF60YRAfjWbkDs="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF60YRAfjWeNpU=",
+									"_parent": {
+										"$ref": "AAAAAAF60YRAfjWd/fA="
+									},
+									"model": {
+										"$ref": "AAAAAAF60YRAfjWbkDs="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60YRAfjWfsV0=",
+											"_parent": {
+												"$ref": "AAAAAAF60YRAfjWeNpU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": 640,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60YRAfjWgXoA=",
+											"_parent": {
+												"$ref": "AAAAAAF60YRAfjWeNpU="
+											},
+											"font": "Arial;13;1",
+											"left": 53,
+											"top": 527,
+											"width": 343,
+											"height": 13,
+											"text": "TicketInfoDI"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60YRAfjWhwU4=",
+											"_parent": {
+												"$ref": "AAAAAAF60YRAfjWeNpU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": 640,
+											"width": 94.44677734375,
+											"height": 13,
+											"text": "(from 卡券转赠)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF60YRAfjWif7E=",
+											"_parent": {
+												"$ref": "AAAAAAF60YRAfjWeNpU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": 640,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 520,
+									"width": 353,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF60YRAfjWfsV0="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF60YRAfjWgXoA="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF60YRAfjWhwU4="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF60YRAfjWif7E="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF60YRAfzWjwoc=",
+									"_parent": {
+										"$ref": "AAAAAAF60YRAfjWd/fA="
+									},
+									"model": {
+										"$ref": "AAAAAAF60YRAfjWbkDs="
+									},
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 545,
+									"width": 353,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF60YRAfzWkfnE=",
+									"_parent": {
+										"$ref": "AAAAAAF60YRAfjWd/fA="
+									},
+									"model": {
+										"$ref": "AAAAAAF60YRAfjWbkDs="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF60YSaPjXJAvM=",
+											"_parent": {
+												"$ref": "AAAAAAF60YRAfzWkfnE="
+											},
+											"model": {
+												"$ref": "AAAAAAF60YSaMzXGa6I="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 560,
+											"width": 343,
+											"height": 13,
+											"text": "+GetTicketInfoForTicketNo(string ticketNo, int custId)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF60YUMJDXX740=",
+											"_parent": {
+												"$ref": "AAAAAAF60YRAfzWkfnE="
+											},
+											"model": {
+												"$ref": "AAAAAAF60YUMHzXU868="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 575,
+											"width": 343,
+											"height": 13,
+											"text": "+SetGifting(string ticketNo, int custId, int giftStatus)",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 555,
+									"width": 353,
+									"height": 38
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF60YRAfzWl2FU=",
+									"_parent": {
+										"$ref": "AAAAAAF60YRAfjWd/fA="
+									},
+									"model": {
+										"$ref": "AAAAAAF60YRAfjWbkDs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": 320,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF60YRAfzWmIgA=",
+									"_parent": {
+										"$ref": "AAAAAAF60YRAfjWd/fA="
+									},
+									"model": {
+										"$ref": "AAAAAAF60YRAfjWbkDs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": 320,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 48,
+							"top": 520,
+							"width": 353,
+							"height": 73,
+							"nameCompartment": {
+								"$ref": "AAAAAAF60YRAfjWeNpU="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF60YRAfzWjwoc="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF60YRAfzWkfnE="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF60YRAfzWl2FU="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF60YRAfzWmIgA="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF60YVm/TXhS64=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"font": "Arial;13;0",
+							"left": 256,
+							"top": 448,
+							"width": 137,
+							"height": 50,
+							"text": "卡券数据库相关操作"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF60YVnBzXkDew=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF60YVm/TXhS64="
+							},
+							"tail": {
+								"$ref": "AAAAAAF60YRAfjWd/fA="
+							},
+							"lineStyle": 1,
+							"points": "268:519;293:498"
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "AAAAAAF60fqm9aboZ8A=",
+							"_parent": {
+								"$ref": "AAAAAAF60V5Vui2lyGk="
+							},
+							"model": {
+								"$ref": "AAAAAAF60fqm9abmS9c="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF60fqm9abpeIA=",
+									"_parent": {
+										"$ref": "AAAAAAF60fqm9aboZ8A="
+									},
+									"model": {
+										"$ref": "AAAAAAF60fqm9abmS9c="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 238,
+									"top": 469,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF60fqm9aboZ8A="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF60fqm9abqaDs=",
+									"_parent": {
+										"$ref": "AAAAAAF60fqm9aboZ8A="
+									},
+									"model": {
+										"$ref": "AAAAAAF60fqm9abmS9c="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 253,
+									"top": 469,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF60fqm9aboZ8A="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF60fqm9qbrO40=",
+									"_parent": {
+										"$ref": "AAAAAAF60fqm9aboZ8A="
+									},
+									"model": {
+										"$ref": "AAAAAAF60fqm9abmS9c="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 209,
+									"top": 470,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF60fqm9aboZ8A="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF60YRAfjWd/fA="
+							},
+							"tail": {
+								"$ref": "AAAAAAF60W+Fzy6O/9c="
+							},
+							"lineStyle": 1,
+							"points": "224:433;224:519",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAF60fqm9abpeIA="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAF60fqm9abqaDs="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAF60fqm9qbrO40="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF60V6Ify2p6UE=",
+					"_parent": {
+						"$ref": "AAAAAAF60V5Vui2kLXs="
+					},
+					"name": "TicketInfoController",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAF60XXCVDDIfG0=",
+							"_parent": {
+								"$ref": "AAAAAAF60V6Ify2p6UE="
+							},
+							"source": {
+								"$ref": "AAAAAAF60V6Ify2p6UE="
+							},
+							"target": {
+								"$ref": "AAAAAAF60W+Fzi6MwqU="
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF60WAPBS3asOo=",
+							"_parent": {
+								"$ref": "AAAAAAF60V6Ify2p6UE="
+							},
+							"name": "SetGifting",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF60WB7Uy3htQI=",
+									"_parent": {
+										"$ref": "AAAAAAF60WAPBS3asOo="
+									},
+									"name": "[FromBody]TicketInput_SettingGifting input"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF60W+Fzi6MwqU=",
+					"_parent": {
+						"$ref": "AAAAAAF60V5Vui2kLXs="
+					},
+					"name": "TicketInfoBI",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAF60XWTQTCI1xM=",
+							"_parent": {
+								"$ref": "AAAAAAF60W+Fzi6MwqU="
+							},
+							"source": {
+								"$ref": "AAAAAAF60W+Fzi6MwqU="
+							},
+							"target": {
+								"$ref": "AAAAAAF60V6Ify2p6UE="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAF60fqm9abmS9c=",
+							"_parent": {
+								"$ref": "AAAAAAF60W+Fzi6MwqU="
+							},
+							"source": {
+								"$ref": "AAAAAAF60W+Fzi6MwqU="
+							},
+							"target": {
+								"$ref": "AAAAAAF60YRAfjWbkDs="
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF60XDiHy6+m+4=",
+							"_parent": {
+								"$ref": "AAAAAAF60W+Fzi6MwqU="
+							},
+							"name": "SetGifting",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF60XPgyC+kqkY=",
+									"_parent": {
+										"$ref": "AAAAAAF60XDiHy6+m+4="
+									},
+									"name": "TicketInput_SettingGifting input",
+									"type": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF60YRAfjWbkDs=",
+					"_parent": {
+						"$ref": "AAAAAAF60V5Vui2kLXs="
+					},
+					"name": "TicketInfoDI",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF60YSaMzXGa6I=",
+							"_parent": {
+								"$ref": "AAAAAAF60YRAfjWbkDs="
+							},
+							"name": "GetTicketInfoForTicketNo",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF60YTRGDXNxgk=",
+									"_parent": {
+										"$ref": "AAAAAAF60YSaMzXGa6I="
+									},
+									"name": "string ticketNo",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF60YTRGDXOiKE=",
+									"_parent": {
+										"$ref": "AAAAAAF60YSaMzXGa6I="
+									},
+									"name": "int custId",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF60YUMHzXU868=",
+							"_parent": {
+								"$ref": "AAAAAAF60YRAfjWbkDs="
+							},
+							"name": "SetGifting",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF60YVKJDXbcAI=",
+									"_parent": {
+										"$ref": "AAAAAAF60YUMHzXU868="
+									},
+									"name": "string ticketNo",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF60YVKJTXcnhQ=",
+									"_parent": {
+										"$ref": "AAAAAAF60YUMHzXU868="
+									},
+									"name": "int custId",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF60YVKJTXdA94=",
+									"_parent": {
+										"$ref": "AAAAAAF60YUMHzXU868="
+									},
+									"name": "int giftStatus",
+									"type": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAF60gX9cqlKmww=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "获取转赠券信息",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAF60gX9cqlL+fg=",
+					"_parent": {
+						"$ref": "AAAAAAF60gX9cqlKmww="
+					},
+					"name": "获取转赠券信息类图"
+				}
+			]
+		}
+	]
+}
