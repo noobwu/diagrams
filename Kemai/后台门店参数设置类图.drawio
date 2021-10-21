@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T03:17:48.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="UzGAt725b2cgq9a5SL2H" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T03:17:58.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="dAT49wAFAkhoeGx21FXX" version="15.5.5" type="github">
   <diagram id="tIGXtR74G_5_16OQkZZ4" name="Page-1">
     <mxGraphModel dx="1662" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-1" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry width="1450" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="hZ0OxnKyoJ1CcystaC4N-2" value="商户参数设置" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
+        <mxCell id="hZ0OxnKyoJ1CcystaC4N-2" value="门店参数设置" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
           <mxGeometry width="1440" height="410" as="geometry" />
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-3" value="SettingController(业务设置控制器)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=default;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
