@@ -1,39 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T03:17:58.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="dAT49wAFAkhoeGx21FXX" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T03:30:36.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="nA3ezjvoG95ueq5o0Pq0" version="15.5.5" type="github">
   <diagram id="tIGXtR74G_5_16OQkZZ4" name="Page-1">
-    <mxGraphModel dx="1662" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry width="1450" height="410" as="geometry" />
+          <mxGeometry width="1320" height="390" as="geometry" />
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-2" value="门店参数设置" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
-          <mxGeometry width="1440" height="410" as="geometry" />
+          <mxGeometry width="1230" height="390" as="geometry" />
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-3" value="SettingController(业务设置控制器)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=default;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
-          <mxGeometry x="39.724511278195486" y="120" width="317.56872180451126" height="90" as="geometry" />
+          <mxGeometry x="36.16" y="114.15" width="403.84" height="115.60975609756096" as="geometry" />
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-4" value="actions" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-3">
-          <mxGeometry y="30" width="317.56872180451126" height="30" as="geometry" />
+          <mxGeometry y="30" width="403.84" height="28.536585365853657" as="geometry" />
         </mxCell>
-        <mxCell id="hZ0OxnKyoJ1CcystaC4N-5" value="+ UpdateSystemVarList(&amp;nbsp;string ListStr) :ActionResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-3">
-          <mxGeometry y="60" width="317.56872180451126" height="30" as="geometry" />
+        <mxCell id="hZ0OxnKyoJ1CcystaC4N-5" value="+ UpdateBranchSystemVarList(string ListStr)(&amp;nbsp;string ListStr) :ActionResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-3">
+          <mxGeometry y="58.536585365853654" width="403.84" height="28.536585365853657" as="geometry" />
         </mxCell>
-        <mxCell id="hZ0OxnKyoJ1CcystaC4N-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IModel_Setting&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+UpdateSystemVarList(int custId,List&amp;lt;SystemVar&amp;gt; list) :&amp;nbsp;bool&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
-          <mxGeometry x="566.0689655172413" y="120" width="357.5172413793103" height="80" as="geometry" />
+        <mxCell id="hZ0OxnKyoJ1CcystaC4N-17" value="+ updateBranchSystemVar(string ListStr)( SystemVar sv) :ActionResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-3">
+          <mxGeometry y="87.07317073170731" width="403.84" height="28.536585365853657" as="geometry" />
+        </mxCell>
+        <mxCell id="hZ0OxnKyoJ1CcystaC4N-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IModel_Setting&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+updateBranchSystemVar(SystemVar sv) :&amp;nbsp;bool&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
+          <mxGeometry x="515.32" y="114.15" width="274.68" height="85.85" as="geometry" />
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-7" value="Model_Setting" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
-          <mxGeometry x="1070" y="120" width="350" height="80" as="geometry">
+          <mxGeometry x="837.52" y="114.15" width="282.48" height="85.85" as="geometry">
             <mxRectangle x="330" y="22" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hZ0OxnKyoJ1CcystaC4N-8" value="+&amp;nbsp;UpdateSystemVarList(int custId, List&amp;lt;SystemVar&amp;gt; list) : bool" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-7">
-          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        <mxCell id="hZ0OxnKyoJ1CcystaC4N-8" value="+&amp;nbsp;updateBranchSystemVar(SystemVar sv) : bool" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-7">
+          <mxGeometry y="26" width="282.48" height="24.73170731707317" as="geometry" />
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-9" value="&amp;lt;&amp;lt;keyword&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;" edge="1" parent="hZ0OxnKyoJ1CcystaC4N-1" source="hZ0OxnKyoJ1CcystaC4N-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="456.82758620689646" y="160" as="sourcePoint" />
-            <mxPoint x="566.0689655172413" y="160" as="targetPoint" />
+            <mxPoint x="415.87063020214026" y="152.1951219512195" as="sourcePoint" />
+            <mxPoint x="515.3179548156955" y="152.1951219512195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-10" value="Dependency1" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fillColor=default;" connectable="0" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-9">
@@ -41,22 +44,22 @@
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-11" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="hZ0OxnKyoJ1CcystaC4N-1" source="hZ0OxnKyoJ1CcystaC4N-8" target="hZ0OxnKyoJ1CcystaC4N-6">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="724.9655172413791" y="290" as="sourcePoint" />
-            <mxPoint x="883.8620689655172" y="290" as="targetPoint" />
+            <mxPoint x="659.9686087990485" y="275.8536585365853" as="sourcePoint" />
+            <mxPoint x="804.619262782402" y="275.8536585365853" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-12" value="M_Setting" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
-          <mxGeometry x="1082.48" y="270" width="347.52" height="80" as="geometry">
+          <mxGeometry x="837.52" y="266.34" width="282.48" height="73.66" as="geometry">
             <mxRectangle x="330" y="22" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hZ0OxnKyoJ1CcystaC4N-13" value="+&amp;nbsp;UpdateSystemVarList(int custId, List&amp;lt;SystemVar&amp;gt; list) : bool" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-12">
-          <mxGeometry y="26" width="347.52" height="26" as="geometry" />
+        <mxCell id="hZ0OxnKyoJ1CcystaC4N-13" value="+&amp;nbsp;updateBranchSystemVar(SystemVar sv) : bool" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-12">
+          <mxGeometry y="26" width="282.48" height="24.73170731707317" as="geometry" />
         </mxCell>
-        <mxCell id="hZ0OxnKyoJ1CcystaC4N-14" value="&amp;lt;&amp;lt;keyword&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0.473;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hZ0OxnKyoJ1CcystaC4N-1" target="hZ0OxnKyoJ1CcystaC4N-12">
+        <mxCell id="hZ0OxnKyoJ1CcystaC4N-14" value="&amp;lt;&amp;lt;keyword&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0.436;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hZ0OxnKyoJ1CcystaC4N-1" target="hZ0OxnKyoJ1CcystaC4N-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1245" y="200" as="sourcePoint" />
-            <mxPoint x="1390.344827586207" y="250" as="targetPoint" />
+            <mxPoint x="961" y="200" as="sourcePoint" />
+            <mxPoint x="1265.6932223543402" y="237.80487804878047" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-15" value="Dependency1" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fillColor=default;" connectable="0" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-14">
