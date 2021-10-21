@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T09:04:57.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" version="15.5.5" etag="sTfDjUHX4X-rtSzoc1UF" type="github"><diagram id="hKEQ1pQzIMN3sM1ihUdg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-21T09:16:38.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="1PAhZXvZ_tL7OnGfhYD8" version="15.5.5" type="github">
+  <diagram id="hKEQ1pQzIMN3sM1ihUdg" name="Page-1">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D033jCUaslqX3hEejHXk-1" value="发送微信模板消息" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry width="1240" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-2" value="TemplateMessage(微信模板消息相关操作控制器)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="560" height="87.07317073170731" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-3" value="actions" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="D033jCUaslqX3hEejHXk-2">
+          <mxGeometry y="30" width="560" height="28.536585365853657" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-4" value="+ SendTemplateMessage(VipMsgModel&amp;lt;PrimaryCYTemplateTypeEnum&amp;gt; message)&amp;nbsp; : ActionResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="D033jCUaslqX3hEejHXk-2">
+          <mxGeometry y="58.536585365853654" width="560" height="28.536585365853657" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-5" value="TemplateMessageBI(微信模板消息业务处理)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="440" height="87.07317073170731" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-6" value="operates" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="D033jCUaslqX3hEejHXk-5">
+          <mxGeometry y="30" width="440" height="28.536585365853657" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-7" value="+ SendTemplateMessage&amp;lt;T&amp;gt;(VipMsgModel&amp;lt;T&amp;gt; input) : WXResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="D033jCUaslqX3hEejHXk-5">
+          <mxGeometry y="58.536585365853654" width="440" height="28.536585365853657" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-9" value="&amp;lt;&amp;lt;keyword&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="120" as="sourcePoint" />
+            <mxPoint x="760" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-10" value="Dependency1" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="D033jCUaslqX3hEejHXk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-11" value="VipInfoApi(会员Api相关操作)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="780" y="240" width="400" height="87.07317073170731" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-12" value="operates" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="D033jCUaslqX3hEejHXk-11">
+          <mxGeometry y="30" width="400" height="28.536585365853657" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-13" value="+ ClearUserCache(ClearUserCacheReq req) : KmmResult&amp;lt;bool&amp;gt;" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="D033jCUaslqX3hEejHXk-11">
+          <mxGeometry y="58.536585365853654" width="400" height="28.536585365853657" as="geometry" />
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-14" value="&amp;lt;&amp;lt;keyword&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;exitX=0.455;exitY=1.103;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.455;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D033jCUaslqX3hEejHXk-7" target="D033jCUaslqX3hEejHXk-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="200" as="sourcePoint" />
+            <mxPoint x="1110" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D033jCUaslqX3hEejHXk-15" value="Dependency1" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="D033jCUaslqX3hEejHXk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
