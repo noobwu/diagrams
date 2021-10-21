@@ -1,62 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T09:14:48.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="XzRsFk0rvZGEclImHXD_" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T03:11:56.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="8AZYZDaWwtVnidM3a3cC" version="15.5.5" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-1" value="商户参数设置" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="1">
-          <mxGeometry width="1240" height="410" as="geometry" />
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-1" value="商户参数设置" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry width="1450" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-38" value="SettingController(业务设置控制器)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="210" height="90" as="geometry" />
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-38" value="SettingController(业务设置控制器)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-39" value="actions" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="NbsZMR-yLsk1v9RTjE0E-38">
-          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-39" value="actions" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" parent="NbsZMR-yLsk1v9RTjE0E-38" vertex="1">
+          <mxGeometry y="30" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-48" value="UpdateSystemVarList(设置业务参数)" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="NbsZMR-yLsk1v9RTjE0E-38">
-          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-48" value="UpdateSystemVarList(&amp;nbsp;string ListStr) :ActionResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" parent="NbsZMR-yLsk1v9RTjE0E-38" vertex="1">
+          <mxGeometry y="60" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-52" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IModel_Setting&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+UpdateSystemVarList(int custId,List&amp;lt;SystemVar&amp;gt; list)&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
-          <mxGeometry x="360" y="120" width="360" height="80" as="geometry" />
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-52" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IModel_Setting&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+UpdateSystemVarList(int custId,List&amp;lt;SystemVar&amp;gt; list)&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="570" y="120" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-53" value="Model_Setting" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
-          <mxGeometry x="880" y="120" width="320" height="80" as="geometry">
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-53" value="Model_Setting" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="120" width="320" height="80" as="geometry">
             <mxRectangle x="330" y="22" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-54" value="+&amp;nbsp;UpdateSystemVarList(int custId, List&amp;lt;SystemVar&amp;gt; list)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NbsZMR-yLsk1v9RTjE0E-53">
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-54" value="+&amp;nbsp;UpdateSystemVarList(int custId, List&amp;lt;SystemVar&amp;gt; list)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NbsZMR-yLsk1v9RTjE0E-53" vertex="1">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-65" value="&amp;lt;&amp;lt;keyword&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;" edge="1" parent="1">
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-65" value="&amp;lt;&amp;lt;keyword&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;" parent="1" edge="1" source="NbsZMR-yLsk1v9RTjE0E-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="160" as="sourcePoint" />
-            <mxPoint x="360" y="160" as="targetPoint" />
+            <mxPoint x="460" y="160" as="sourcePoint" />
+            <mxPoint x="570" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-66" value="Dependency1" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fillColor=default;" connectable="0" vertex="1" parent="NbsZMR-yLsk1v9RTjE0E-65">
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-66" value="Dependency1" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fillColor=default;" parent="NbsZMR-yLsk1v9RTjE0E-65" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-72" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NbsZMR-yLsk1v9RTjE0E-54" target="NbsZMR-yLsk1v9RTjE0E-52">
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-72" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NbsZMR-yLsk1v9RTjE0E-54" target="NbsZMR-yLsk1v9RTjE0E-52" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="520" y="290" as="sourcePoint" />
-            <mxPoint x="680" y="290" as="targetPoint" />
+            <mxPoint x="730" y="290" as="sourcePoint" />
+            <mxPoint x="890" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-73" value="M_Setting" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
-          <mxGeometry x="880" y="270" width="320" height="80" as="geometry">
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-73" value="M_Setting" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="270" width="320" height="80" as="geometry">
             <mxRectangle x="330" y="22" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-74" value="+&amp;nbsp;UpdateSystemVarList(int custId, List&amp;lt;SystemVar&amp;gt; list)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NbsZMR-yLsk1v9RTjE0E-73">
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-74" value="+&amp;nbsp;UpdateSystemVarList(int custId, List&amp;lt;SystemVar&amp;gt; list)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NbsZMR-yLsk1v9RTjE0E-73" vertex="1">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-75" value="&amp;lt;&amp;lt;keyword&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NbsZMR-yLsk1v9RTjE0E-53" target="NbsZMR-yLsk1v9RTjE0E-73">
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-75" value="&amp;lt;&amp;lt;keyword&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="NbsZMR-yLsk1v9RTjE0E-53" target="NbsZMR-yLsk1v9RTjE0E-73" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="200" as="sourcePoint" />
-            <mxPoint x="1190" y="250" as="targetPoint" />
+            <mxPoint x="1260" y="200" as="sourcePoint" />
+            <mxPoint x="1400" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbsZMR-yLsk1v9RTjE0E-76" value="Dependency1" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fillColor=default;" connectable="0" vertex="1" parent="NbsZMR-yLsk1v9RTjE0E-75">
+        <mxCell id="NbsZMR-yLsk1v9RTjE0E-76" value="Dependency1" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fillColor=default;" parent="NbsZMR-yLsk1v9RTjE0E-75" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
