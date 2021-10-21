@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T03:30:36.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="nA3ezjvoG95ueq5o0Pq0" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T03:36:59.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="6DkHecRP8fkrHoeyiP0s" version="15.5.5" type="github">
   <diagram id="tIGXtR74G_5_16OQkZZ4" name="Page-1">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,16 +11,16 @@
           <mxGeometry width="1230" height="390" as="geometry" />
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-3" value="SettingController(业务设置控制器)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=default;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
-          <mxGeometry x="36.16" y="114.15" width="403.84" height="115.60975609756096" as="geometry" />
+          <mxGeometry x="36.16" y="114.15" width="373.84" height="115.60975609756096" as="geometry" />
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-4" value="actions" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-3">
-          <mxGeometry y="30" width="403.84" height="28.536585365853657" as="geometry" />
+          <mxGeometry y="30" width="373.84" height="28.536585365853657" as="geometry" />
         </mxCell>
-        <mxCell id="hZ0OxnKyoJ1CcystaC4N-5" value="+ UpdateBranchSystemVarList(string ListStr)(&amp;nbsp;string ListStr) :ActionResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-3">
-          <mxGeometry y="58.536585365853654" width="403.84" height="28.536585365853657" as="geometry" />
+        <mxCell id="hZ0OxnKyoJ1CcystaC4N-5" value="+ UpdateBranchSystemVarList(&amp;nbsp;string ListStr) :ActionResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-3">
+          <mxGeometry y="58.536585365853654" width="373.84" height="28.536585365853657" as="geometry" />
         </mxCell>
-        <mxCell id="hZ0OxnKyoJ1CcystaC4N-17" value="+ updateBranchSystemVar(string ListStr)( SystemVar sv) :ActionResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-3">
-          <mxGeometry y="87.07317073170731" width="403.84" height="28.536585365853657" as="geometry" />
+        <mxCell id="hZ0OxnKyoJ1CcystaC4N-17" value="+ updateBranchSystemVar( SystemVar sv) :ActionResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-3">
+          <mxGeometry y="87.07317073170731" width="373.84" height="28.536585365853657" as="geometry" />
         </mxCell>
         <mxCell id="hZ0OxnKyoJ1CcystaC4N-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IModel_Setting&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+updateBranchSystemVar(SystemVar sv) :&amp;nbsp;bool&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="hZ0OxnKyoJ1CcystaC4N-1">
           <mxGeometry x="515.32" y="114.15" width="274.68" height="85.85" as="geometry" />
