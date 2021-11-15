@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T07:45:26.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="vKiQRWTmcQZV-MqJa2_6" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T07:48:55.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="bFJAmDM2kQqMQJ0z1CEP" version="15.7.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -122,8 +122,8 @@
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="调用生成外卖配送信息的二维码" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="345" y="161" as="sourcePoint" />
-            <mxPoint x="685" y="160" as="targetPoint" />
+            <mxPoint x="347" y="161" as="sourcePoint" />
+            <mxPoint x="726" y="161" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pznQq88BLypSLClIyA6O-4" value="微平台接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
