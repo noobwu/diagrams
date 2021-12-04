@@ -1,20 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T07:07:36.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="269i-4nOfgxZbuJ2ILPO" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-04T07:12:49.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="wWXLwpW3LEwisBOzJJAy" version="15.7.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="Fp4EpNFuOI2YgD185gYQ-0" value="卡券中心" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="80" width="1450" height="360" as="geometry" />
+          <mxGeometry x="40" y="80" width="1450" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Fp4EpNFuOI2YgD185gYQ-1" value="TicketInfoController(卡券相关操作控制器)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="160" width="380" height="90" as="geometry" />
+          <mxGeometry x="80" y="160" width="400" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Fp4EpNFuOI2YgD185gYQ-2" value="actions" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="Fp4EpNFuOI2YgD185gYQ-1">
-          <mxGeometry y="30" width="380" height="30" as="geometry" />
+          <mxGeometry y="30" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fp4EpNFuOI2YgD185gYQ-3" value="+ GetCardVoucherCenterForPage(获取用户卡券列表) :&amp;nbsp;ActionResult" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];resizeWidth=1;" vertex="1" parent="Fp4EpNFuOI2YgD185gYQ-1">
-          <mxGeometry y="60" width="380" height="30" as="geometry" />
+          <mxGeometry y="60" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp4EpNFuOI2YgD185gYQ-7" value="TicketInfoBI(卡券业务相关操作)" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="160" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp4EpNFuOI2YgD185gYQ-8" value="&lt;span&gt;+ GetCardVoucherCenterForPage(TicketInput input)&amp;nbsp;:&amp;nbsp;&lt;/span&gt;KmmResult&amp;lt;List&amp;lt;ActivityTicketModel&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fp4EpNFuOI2YgD185gYQ-7">
+          <mxGeometry y="26" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp4EpNFuOI2YgD185gYQ-9" value="&lt;span&gt;+ GetTicketUseDiscount((string oldText, string mutexText, int canMixedUseType))&amp;nbsp;:&amp;nbsp;&lt;/span&gt;string" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fp4EpNFuOI2YgD185gYQ-7">
+          <mxGeometry y="52" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fp4EpNFuOI2YgD185gYQ-10" value="&amp;lt;&amp;lt;keyword&amp;gt;&amp;gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.014;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="199.5" as="sourcePoint" />
+            <mxPoint x="606.22" y="200.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fp4EpNFuOI2YgD185gYQ-11" value="Dependency1" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;fillColor=default;" connectable="0" vertex="1" parent="Fp4EpNFuOI2YgD185gYQ-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
